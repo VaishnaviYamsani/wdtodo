@@ -1,4 +1,4 @@
-const toDoList = () => {
+const todoList = () => {
   all = [];
   const add = (todoItem) => {
     all.push(todoItem);
@@ -53,7 +53,7 @@ const toDoList = () => {
 // DO NOT CHANGE ANYTHING BELOW THIS LINE. #
 // ####################################### #
 
-const todos = toDoList();
+const todos = todoList();
 
 const formattedDate = (d) => {
   return d.toISOString().split("T")[0];
