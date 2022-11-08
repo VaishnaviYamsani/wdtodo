@@ -53,7 +53,7 @@ const toDoList = () => {
 // DO NOT CHANGE ANYTHING BELOW THIS LINE. #
 // ####################################### #
 
-const todos = todoList();
+const todos = toDoList();
 
 const formattedDate = (d) => {
   return d.toISOString().split("T")[0];
@@ -74,7 +74,7 @@ todos.add({ title: "Service Vehicle", dueDate: today, completed: false });
 todos.add({ title: "File taxes", dueDate: tomorrow, completed: false });
 todos.add({ title: "Pay electric bill", dueDate: tomorrow, completed: false });
 
-console.log("My ToDo-List\n\n");
+console.log("My Todo-list\n\n");
 
 console.log("Overdue");
 var overdues = todos.overdue();
